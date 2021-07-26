@@ -1,0 +1,87 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  .product {
+    flex-basis: 40%;
+    margin-bottom: 50px;
+  }
+  .product-content{
+    flex-wrap: wrap;
+    
+  }
+  .product-content h3{
+    color: rgb(0, 89, 255);
+    text-align: left;
+    font-size: 16px;
+  }
+  .product-content h4{
+    position:absolute;
+    top:153px;
+    right: 10px;
+    font-size: 15px;
+  }
+  .product-content p{
+    margin-bottom:20px;
+    text-align: left;
+  }
+  .star{
+    padding-right: 10px;
+    color: #e0dd24e1;
+    position:absolute;
+    top:20px;
+  }
+  .product-content li{
+    list-style: none;
+    float:right;
+    
+    
+  }
+  .product-content h5{
+    position:absolute;
+    top:245px;
+    color: #0e7097;
+  }
+  .heading h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .product {
+    width: 100%;
+  }
+  
+  .product {
+    flex-basis: 90%;
+    margin-bottom: 50px;
+  }
+  .product-content{
+    flex-wrap: wrap;
+  }
+  
+  .header-right{
+    display: none !important;
+  }
+  
+  .menu-icon{
+    display: block,  !important;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
